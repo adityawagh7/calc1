@@ -3,14 +3,15 @@ package calculator;
 public class calculator extends ext_cal{
 
     public static void main(String[] args) {
+        calculator c = new calculator();
         double num1 = 100;
         double num2 = 200;
         System.out.println("Sum: " + add(num1, num2));
         System.out.println("Difference: " + subtract(num1, num2));
         System.out.println("Product: " + multiply(num1, num2));
         System.out.println("Quotient: " + divide(num1, num2));
-        System.out.println("square :" + sqaure(num1);
-        System.out.println("cube :" + cube(num1);
+        System.out.println("square :" + c.square(num1));
+        System.out.println("cube :" + c.cube(num1));
 
 
     }
