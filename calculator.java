@@ -13,7 +13,6 @@ public class calculator extends ext_cal{
         System.out.println("cube :" + cube(num1);
 
 
-        scanner.close();
     }
     public static double add(double num1, double num2) {
         return num1 + num2;
