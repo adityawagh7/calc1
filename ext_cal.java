@@ -2,7 +2,7 @@ package calculator;
 
 
 
-class ext_cal{
+public class ext_cal{
     float square(float num1)
       {
      return(num1*num1);
