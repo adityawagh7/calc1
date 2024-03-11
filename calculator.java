@@ -2,7 +2,7 @@ package calculator;
 
 import java.util.Scanner;
 
-public class calculator {
+public class calculator extends ext_cal{
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -15,6 +15,9 @@ public class calculator {
         System.out.println("Difference: " + subtract(num1, num2));
         System.out.println("Product: " + multiply(num1, num2));
         System.out.println("Quotient: " + divide(num1, num2));
+        System.out.println("square :" + sqaure(num1);
+        System.out.println("cube :" + cube(num1);
+
 
         scanner.close();
     }
